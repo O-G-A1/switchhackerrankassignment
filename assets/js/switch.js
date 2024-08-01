@@ -1,10 +1,10 @@
 let permission = confirm("Are you in for a switch?");
 if(permission==true){
-let userInput= prompt("What is your name?");
+let userInput= prompt("What is your name?").toLowerCase();
 let show;
 let firstletter = userInput[0];
 
-        switch(firstletter){
+    switch(firstletter){
             case "a":
             case "e":
             case "i":
@@ -14,9 +14,9 @@ let firstletter = userInput[0];
         show= "A";
         alert(show);
         console.log(show);
-    
-        }
-    switch(firstletter){
+
+        break;
+
             case "b":
             case "c":
             case "d":
@@ -26,8 +26,10 @@ let firstletter = userInput[0];
             show="B";
             alert(show);
             console.log(show);
-    }
-        switch(firstletter){
+
+
+        break;
+
             case "h":
             case "j":
             case "k":
@@ -37,8 +39,11 @@ let firstletter = userInput[0];
             show="C";
             alert(show);
             console.log(show);
-    }
-        switch(firstletter){
+
+
+        break;
+
+
             case "n":
             case "p":
             case "q":
@@ -48,8 +53,10 @@ let firstletter = userInput[0];
             show="D";
             alert(show);
             console.log(show);
-        }
-        switch(firstletter){
+
+
+        break;
+
 
             case "t":
             case "v":
@@ -58,16 +65,23 @@ let firstletter = userInput[0];
             show="E";
             alert(show);
             console.log(show);
-        }
-        switch(firstletter){
-            case "x":
-            case "y":
-            case "z":
 
 
-            show="F";
-            alert(show);
-            console.log(show);
+        break;
+
+                case "x":
+                case "y":
+                case "z":
+
+
+                show="F";
+                alert(show);
+                console.log(show);
+    
         }
+    
+     
+
 }
+
 
